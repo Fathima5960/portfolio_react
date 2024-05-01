@@ -1,0 +1,28 @@
+.projects {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .projects img {
+  width: 400px;
+  height: 300px;
+  border-radius: 40px;
+} */
+
+.proj-img {
+  margin-bottom: 24px;
+}
+
+.proj-text h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-text span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}

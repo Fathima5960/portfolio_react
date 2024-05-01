@@ -1,0 +1,68 @@
+.img {
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+}
+.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+.nav-pills .nav-item {
+  width: 33.3333%;
+}
+
+.nav-pills .nav-link {
+  background-color: transparent;
+
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+
+.nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #d2d9d4 , #666666 );
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link.active::before {
+  width: 100%;
+}
+
+.nav-pills .nav-link.active {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.img img {
+  height: 500px;
+  padding-bottom: 20px;
+  width: 400px;
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact input {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.contact button {
+  background-color: white;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
